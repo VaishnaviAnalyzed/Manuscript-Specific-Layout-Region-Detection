@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
+
+# Runtime files
+storage/uploads/*
+storage/results/*
+!storage/uploads/.gitkeep
+!storage/results/.gitkeep
+
