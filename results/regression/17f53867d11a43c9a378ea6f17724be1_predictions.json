@@ -1,0 +1,52 @@
+{
+  "source_image": "17f53867d11a43c9a378ea6f17724be1.png",
+  "image_size": {
+    "width": 1152,
+    "height": 648
+  },
+  "model": {
+    "name": "opencv-layout-baseline",
+    "version": "1.0.0",
+    "classes": [
+      "header",
+      "footer",
+      "main_text",
+      "side_text",
+      "filler"
+    ]
+  },
+  "processed_at": "2026-08-07T16:26:06.443098+00:00",
+  "region_count": 3,
+  "regions": [
+    {
+      "label": "header",
+      "confidence": 0.82,
+      "bbox": {
+        "x_min": 331,
+        "y_min": 16,
+        "x_max": 837,
+        "y_max": 33
+      }
+    },
+    {
+      "label": "footer",
+      "confidence": 0.82,
+      "bbox": {
+        "x_min": 313,
+        "y_min": 513,
+        "x_max": 857,
+        "y_max": 528
+      }
+    },
+    {
+      "label": "main_text",
+      "confidence": 0.9,
+      "bbox": {
+        "x_min": 87,
+        "y_min": 78,
+        "x_max": 1016,
+        "y_max": 416
+      }
+    }
+  ]
+}

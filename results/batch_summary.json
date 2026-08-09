@@ -1,0 +1,20 @@
+{
+  "input": "data\\test_images",
+  "output": "results",
+  "total": 2,
+  "completed": [
+    {
+      "source_image": "palm_leaf_sample.png",
+      "region_count": 3,
+      "annotated_image": "results\\palm_leaf_sample_annotated.jpg",
+      "metadata": "results\\palm_leaf_sample_predictions.json"
+    },
+    {
+      "source_image": "paper_sample.png",
+      "region_count": 3,
+      "annotated_image": "results\\paper_sample_annotated.jpg",
+      "metadata": "results\\paper_sample_predictions.json"
+    }
+  ],
+  "failed": []
+}

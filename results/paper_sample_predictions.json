@@ -1,0 +1,52 @@
+{
+  "source_image": "paper_sample.png",
+  "image_size": {
+    "width": 2047,
+    "height": 774
+  },
+  "model": {
+    "name": "opencv-layout-baseline",
+    "version": "1.0.0",
+    "classes": [
+      "header",
+      "footer",
+      "main_text",
+      "side_text",
+      "filler"
+    ]
+  },
+  "processed_at": "2026-08-07T16:26:41.655803+00:00",
+  "region_count": 3,
+  "regions": [
+    {
+      "label": "header",
+      "confidence": 0.578,
+      "bbox": {
+        "x_min": 590,
+        "y_min": 33,
+        "x_max": 1459,
+        "y_max": 48
+      }
+    },
+    {
+      "label": "footer",
+      "confidence": 0.58,
+      "bbox": {
+        "x_min": 562,
+        "y_min": 731,
+        "x_max": 1520,
+        "y_max": 746
+      }
+    },
+    {
+      "label": "main_text",
+      "confidence": 0.9,
+      "bbox": {
+        "x_min": 237,
+        "y_min": 118,
+        "x_max": 2000,
+        "y_max": 695
+      }
+    }
+  ]
+}

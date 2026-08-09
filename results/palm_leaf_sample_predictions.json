@@ -1,0 +1,52 @@
+{
+  "source_image": "palm_leaf_sample.png",
+  "image_size": {
+    "width": 2048,
+    "height": 834
+  },
+  "model": {
+    "name": "opencv-layout-baseline",
+    "version": "1.0.0",
+    "classes": [
+      "header",
+      "footer",
+      "main_text",
+      "side_text",
+      "filler"
+    ]
+  },
+  "processed_at": "2026-08-07T16:26:41.568789+00:00",
+  "region_count": 3,
+  "regions": [
+    {
+      "label": "header",
+      "confidence": 0.82,
+      "bbox": {
+        "x_min": 578,
+        "y_min": 26,
+        "x_max": 1464,
+        "y_max": 50
+      }
+    },
+    {
+      "label": "footer",
+      "confidence": 0.82,
+      "bbox": {
+        "x_min": 548,
+        "y_min": 782,
+        "x_max": 1497,
+        "y_max": 806
+      }
+    },
+    {
+      "label": "main_text",
+      "confidence": 0.9,
+      "bbox": {
+        "x_min": 147,
+        "y_min": 114,
+        "x_max": 1777,
+        "y_max": 636
+      }
+    }
+  ]
+}
